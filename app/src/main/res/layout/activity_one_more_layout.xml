@@ -5,67 +5,74 @@
     android:orientation="vertical">
 
     <EditText
-        android:layout_width="260dp"
-        android:layout_height="wrap_content"
+        android:layout_width="245dp"
+        android:layout_height="17dp"
         android:importantForAutofill="no"
         android:inputType="text"
         android:textColor="#14ccf5"
         android:typeface="sans" />
 
     <EditText
-        android:layout_width="260dp"
-        android:layout_height="wrap_content"
+        android:layout_width="245dp"
+        android:layout_height="17dp"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:textColor="#14ccf5"
         android:typeface="sans" />
 
     <EditText
-        android:layout_width="260dp"
-        android:layout_height="wrap_content"
+        android:layout_width="245dp"
+        android:layout_height="17dp"
         android:importantForAutofill="no"
         android:inputType="phone"
         android:textColor="#14ccf5"
         android:typeface="sans" />
 
     <EditText
-        android:layout_width="260dp"
-        android:layout_height="wrap_content"
+        android:layout_width="245dp"
+        android:layout_height="17dp"
         android:importantForAutofill="no"
         android:inputType="number"
         android:textColor="#14ccf5"
         android:typeface="sans" />
 
     <EditText
-        android:layout_width="260dp"
-        android:layout_height="wrap_content"
+        android:layout_width="245dp"
+        android:layout_height="17dp"
         android:importantForAutofill="no"
         android:inputType="textPassword"
         android:textColor="#14ccf5"
         android:typeface="sans" />
 
     <EditText
-        android:layout_width="260dp"
-        android:layout_height="wrap_content"
+        android:layout_width="245dp"
+        android:layout_height="17dp"
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         android:textColor="#14ccf5"
         android:typeface="sans" />
 
     <EditText
-        android:layout_width="260dp"
-        android:layout_height="wrap_content"
+        android:layout_width="245dp"
+        android:layout_height="17dp"
         android:importantForAutofill="no"
         android:inputType="textUri"
         android:textColor="#14ccf5"
         android:typeface="sans" />
 
     <EditText
-        android:layout_width="260dp"
-        android:layout_height="wrap_content"
+        android:layout_width="245dp"
+        android:layout_height="17dp"
         android:importantForAutofill="no"
         android:inputType="date"
         android:textColor="#14ccf5"
         android:typeface="sans" />
+
+    <CalendarView
+        android:id="@+id/calendarView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minDate="1/01/2000"
+        android:selectedWeekBackgroundColor="#EEE8AA"/>
 
 </LinearLayout>
