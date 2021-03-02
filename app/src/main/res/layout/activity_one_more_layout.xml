@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textColor="#14ccf5"
+        android:typeface="sans" />
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textColor="#14ccf5"
+        android:typeface="sans" />
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:textColor="#14ccf5"
+        android:typeface="sans" />
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="#14ccf5"
+        android:typeface="sans" />
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="#14ccf5"
+        android:typeface="sans" />
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:textColor="#14ccf5"
+        android:typeface="sans" />
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="textUri"
+        android:textColor="#14ccf5"
+        android:typeface="sans" />
+    <EditText
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:textColor="#14ccf5"
+        android:typeface="sans" />
+
+</LinearLayout>
