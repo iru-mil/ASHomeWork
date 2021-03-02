@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+    android:id="@+id/textView"
+    android:layout_width="350dp"
+    android:layout_height="61dp"
+    android:layout_gravity="center_vertical"
+    android:autoSizeTextType="uniform"
+    android:gravity="center_vertical"
+    android:text="Калькулятор"
+    android:tooltipText="Equal" />
+
+<EditText
+    android:layout_width="211dp"
+    android:layout_height="62dp"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"/>
+<EditText
+    android:layout_width="211dp"
+    android:layout_height="62dp"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"/>
+
+<Button
+    android:layout_width="136dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:autoSizeTextType="uniform"
+    android:text="OK"
+    android:textColor="@color/black"
+    android:textStyle="bold" />
+
+<Switch
+    android:id="@+id/switch1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Switch" />
+
+<CheckBox
+    android:id="@+id/checkBox"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="CheckBox" />
+
+<ToggleButton
+    android:id="@+id/toggleButton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="ToggleButton" />
+
+</LinearLayout>
